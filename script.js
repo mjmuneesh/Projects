@@ -26,6 +26,7 @@ for(item of detail){
 for(obj in item){
     document.getElementById("details").innerHTML+= item[obj]+"<br>";
 }
+document.getElementById("details").innerHTML+= "<br>";
 
 }
 document.getElementById("details").style.display="block";
