@@ -16,25 +16,27 @@
 
     <form>
 
-        <h3 id="form-heading"> Login Form</h3>
+       
 
-        <div class="container mt-3">
+        <div class="container mt-5">
             <div class="row">
-                <div class="col-m-12">
-                    <h3 style="color: white;">Enter Details</h3>
+                <div class="col-m-12" id="nav">
+                    <h3 >Enter Details</h3>
                 </div>
             </div>
             <div class="row mt-2">
                 <span id="label">Name:</span>
-                <div class="col-md-12 col-sm-12"><input type="text" name="name" placeholder="Enter your name"></div>
+                <div class="col-md-12 col-sm-12">
+                    <input type="text" name="name" placeholder="Enter your name">
+                </div>
             </div>
             <div class="row mt-2">
                 <span id="label">Email:</span>
-                <div class="col-md-12 col-sm-12"><input type="email" name="email" placeholder="Enter your email"></div>
+                <div class="col-md-12 col-sm-12"><input type="text" name="email" placeholder="Enter your email"></div>
             </div>
             <div class="row mt-2">
                 <span id="label">Contact:</span>
-                <div class="col-md-12 col-sm-12"><input type="tel" name="contact" placeholder="Enter your contact">
+                <div class="col-md-12 col-sm-12"><input type="text" name="contact" placeholder="Enter your contact">
                 </div>
             </div>
             <div class="row mt-2">
@@ -45,7 +47,8 @@
             <div class="row mt-2">
                 <span id="label">Gender:</span>
                 <div class="col-md-12 col-sm-12 gen "><input type="radio" name="gender" value="male"
-                        name="gender">Male:<input type="radio" name="gender" value="female" name="gender">Female:</div>
+                        name="gender" checked>Male<input type="radio" name="gender" value="female" name="gender">Female
+                </div>
             </div>
             <div class="row mt-2">
                 <span id="label">Languages:</span>
@@ -58,7 +61,7 @@
             </div>
             <br>
             <div class="row mt-2">
-                
+
                 <div class="col-md-12 col-sm-12"><select name="hobbies">
                         <option value="selet hobbies">Select Hobbies</option>
                         <option value="Boxing">Boxing</option>
@@ -67,12 +70,13 @@
                         <option value="badminton">badminton</option>
                     </select></div>
             </div>
+        </form>
             <div class="row mt-3">
                 <div class="col-md-12 col-sm-12"><button type="submit" class="btn btn-success">Submit</button>
                     <button class="btn btn-primary" id="showbtn">Show Form</button>
                 </div>
             </div>
-    </form>
+   
 
     </div>
 
