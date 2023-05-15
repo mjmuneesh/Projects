@@ -12,14 +12,14 @@ document.querySelector("#search").addEventListener("keyup",()=>{
     });
 
 
-    document.getElementById("details").innerHTML="";
+    document.getElementById("listData").innerHTML="";
 
     for (let item of filter) {
         for (let obj in item) {
-            document.getElementById("details").innerHTML += item[obj] + "<br>";
+            document.getElementById("listData").innerHTML += item[obj] + "<br>";
         }
-        document.getElementById("details").innerHTML += "<br>";
+        document.getElementById("listData").innerHTML += "<br>";
 
     }
-    document.getElementById("details").style.display = "block";
+    document.getElementById("listData").style.display = "block";
 });

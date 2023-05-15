@@ -1,6 +1,4 @@
 
-
-
 const emptyChecker = {
     name: true,
     email: true,

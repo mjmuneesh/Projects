@@ -98,6 +98,10 @@ input[type="checkbox"],input[type="radio"]{
     width: 100%;
     margin-bottom: 15px;
  }
+ .record-row{
+    border: 1px solid black;
+    padding: 5px
+ }
 
 
 @media screen and (max-width:786px) {
